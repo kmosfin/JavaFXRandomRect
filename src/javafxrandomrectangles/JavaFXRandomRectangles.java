@@ -49,7 +49,7 @@ public class JavaFXRandomRectangles extends Application {
         Group tyypit = new Group();
         for (int i = 0; i < 200; i++) {
             
-            
+         //kommentti   
             Rectangle r = new Rectangle();
             r.setY(random(800));
             r.setX(random(800));
