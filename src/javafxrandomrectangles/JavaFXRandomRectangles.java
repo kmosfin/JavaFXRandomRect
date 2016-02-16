@@ -80,6 +80,7 @@ public class JavaFXRandomRectangles extends Application {
                     if(r.getBoundsInLocal().intersects(newValue)){
                         //r.setStyle("-fx-fill: red;");
                         System.out.println("boing");
+                        //asd
                     }
                 }
             });
