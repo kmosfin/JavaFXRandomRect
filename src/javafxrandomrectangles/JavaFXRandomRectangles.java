@@ -47,7 +47,9 @@ public class JavaFXRandomRectangles extends Application {
         primaryStage.setScene(scene);
 
         Group tyypit = new Group();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 200; i++) {
+            
+            
             Rectangle r = new Rectangle();
             r.setY(random(800));
             r.setX(random(800));
