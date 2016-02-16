@@ -78,7 +78,8 @@ public class JavaFXRandomRectangles extends Application {
                 @Override
                 public void changed(ObservableValue<? extends Bounds> arg0, Bounds oldValue, Bounds newValue){
                     if(r.getBoundsInLocal().intersects(newValue)){
-                        r.setStyle("-fx-fill: red;");
+                        //r.setStyle("-fx-fill: red;");
+                        System.out.println("boing");
                     }
                 }
             });
